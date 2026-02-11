@@ -1,0 +1,101 @@
+# -----------------------------
+# Python bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# C extensions
+# -----------------------------
+*.so
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+my_env/
+
+# Poetry
+.poetry/
+
+# Pipenv
+Pipfile.lock
+
+# -----------------------------
+# Distribution / packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Django specific
+# -----------------------------
+db.sqlite3
+media/
+staticfiles/
+
+# -----------------------------
+# FastAPI / Uvicorn
+# -----------------------------
+*.db
+*.sqlite3
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -----------------------------
+# Mypy / type checking
+# -----------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# -----------------------------
+# IDEs
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS generated
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+
+# -----------------------------
+# Celery / background tasks
+# -----------------------------
+celerybeat-schedule
