@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: rateuser
+      POSTGRES_PASSWORD: ratepass
+      POSTGRES_DB: ratelimiter
+    ports:
+      - "5432:5432"
+
+"docker compose up -d"
